@@ -50,7 +50,7 @@ Open http://localhost:3000
 
 | Email               | Password    |
 |---------------------|-------------|
-| john@example.com    | password123 |
+|dummy@example.com    | password123 |
 | jane@example.com    | password123 |
 
 ## Running Tests

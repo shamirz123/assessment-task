@@ -70,7 +70,7 @@ export default function TimesheetsTable() {
 
   return (
     <div className="bg-white rounded-lg border border-gray-200 p-6">
-      <div className="flex items-center justify-between mb-5">
+      <div className="flex flex-wrap items-center justify-between mb-5">
         <h1 className="text-xl font-semibold text-gray-900">Your Timesheets</h1>
         <button
           onClick={() => setShowCreateModal(true)}
@@ -243,7 +243,7 @@ function CreateTimesheetModal({
       onClick={handleBackdrop}
     >
       <div className="bg-white rounded-lg shadow-xl w-full max-w-sm p-6">
-        <div className="flex items-center justify-between mb-5">
+        <div className="flex flex-wrap items-center justify-between mb-5 gap-2">
           <h2 className="text-base font-semibold text-gray-900">New Timesheet</h2>
           <button
             onClick={onClose}
